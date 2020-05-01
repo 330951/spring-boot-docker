@@ -17,6 +17,6 @@ public class SpringBootDockerApplication {
 	public String getString() {
 		System.out.println("This is from the SpringBootDockerApplication");
 
-		return "This is from the SpringBootDockerApplication";
+		return "This is from the SpringBootDockerApplication ";
 	}
 }
