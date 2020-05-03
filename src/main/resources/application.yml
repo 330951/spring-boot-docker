@@ -1,4 +1,7 @@
-spring:  application:    name: 'spring-boot-docker'    
+spring:
+  application:
+    name: 'spring-boot-docker'
+    
 server:
-  port: 8080
+  port: 8085
   
