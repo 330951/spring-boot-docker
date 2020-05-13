@@ -1,7 +1,12 @@
 spring:
+  datasource:
+    url: jdbc:mysql://localhost/bootdb
+    username: root
+    password: root
+    platform: mysql
+    initialization-mode: always
   application:
     name: 'spring-boot-docker'
     
 server:
-  port: 8085
-  
+  port: 8080 
